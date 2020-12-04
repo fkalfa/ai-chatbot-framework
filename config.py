@@ -14,6 +14,8 @@ class Config(object):
 
 class Development(Config):
     DEBUG = True
+    MONGODB_HOST = "mongodb+srv://chatbot:chatbot1234@cluster0.iwgv8.mongodb.net/iky-ai?retryWrites=true&w=majority"
+
 
 class Production(Config):
     # MongoDB Database Details
