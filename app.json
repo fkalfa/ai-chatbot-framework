@@ -5,7 +5,7 @@
   "image": "heroku/python",
   "repository": "https://github.com/alfredfrancis/ai-chatbot-framework/",
   "keywords": ["python", "flask","spacy","scikit-learn"],
-  "addons": [ "mongolab" ],
+  #"addons": [ "mongolab" ],
   "buildpacks": [
     {
       "url": "https://github.com/heroku/exec-buildpack"
