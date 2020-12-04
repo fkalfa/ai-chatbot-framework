@@ -28,3 +28,5 @@ requests==2.18.4
 
 gunicorn==19.7.1
 gevent==1.2.2
+
+dnspython==2.0.0
